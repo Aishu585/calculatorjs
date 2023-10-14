@@ -1,0 +1,84 @@
+.cal-container{
+    margin: 40px auto;
+    background-color: black;
+    width: 480px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 600px;
+}
+input{
+    width: 100%;
+    font-size: 38px;
+    border-radius: 18px;
+    border: 3px solid grey;
+    outline: none;
+    font-weight:400;
+    color: white;
+    background-color: black;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    border-radius: 5px;
+    
+    /* padding: 5px 60px; */
+}
+button{
+    font-size: 35px;
+    width: 20px;
+    height: 3px;
+    border-radius: 50%;
+    border: none;
+    margin: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:normal;
+    color: white;
+    padding: 30px 30px;
+    background-color: black;
+    box-sizing: border-box;
+
+}
+.clr{
+    color:green; 
+
+}
+.clr:hover{
+    /* border: 2px solid green; */
+    color: white;
+    background-color: green;
+}
+.del{
+    color: red;
+}
+.del:hover{
+    color: white;
+    background-color:red;
+}.grn{
+    color: green;
+    font-weight: bold;
+    font-size:40px;
+}
+.grn:hover{
+    color: white;
+   background-color: green;
+
+}
+.eql{
+    color: black;
+    font-weight: bold;
+    background-color: green;
+}
+.eql:hover{
+    color: white;
+    background-color: green;
+}
+.shw:hover{
+   background-color: rgb(148, 130, 130);
+}
